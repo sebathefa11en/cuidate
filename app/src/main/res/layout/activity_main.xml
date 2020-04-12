@@ -12,13 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="200dp">
 
+        <FrameLayout
+            android:id="@+id/autocuidado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"></FrameLayout>
+
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Hola Mundo"
+            android:text="Autocuidado"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textSize="20sp"/>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -26,11 +34,21 @@
         android:layout_width="match_parent"
         android:layout_height="200dp">
 
+        <FrameLayout
+            android:id="@+id/estadisticas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2">
+
+        </FrameLayout>
+
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Hola Mundo"
+            android:textColor="#ffffff"
+            android:text="Estadísticas"
+            android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="20sp" />
 
